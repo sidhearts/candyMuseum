@@ -1,0 +1,42 @@
+body{
+	background-color: #f5d9d5;
+	font-family: monda;
+}
+
+#mainnavbar{
+	font-size: 1.5rem;
+	font-weight: 200;
+}
+
+#mainnavbar .nav-link{
+	color: white;
+}
+
+#mainnavbar .nav-link:hover{
+	color: #EA1C2C;
+}
+
+#mainnavbar .navbar-brand{
+	color: #EA1C2C;
+	
+}
+
+.navbar.scrolled{
+	background:rgb(222,192,222);
+}
+
+#heading span{
+	color: #EA1C2C;
+}
+
+#heading h1{
+	font-weight: 100;
+	font-size: 3rem;
+}
+
+@media (max-width: 1200px) {
+	#heading h1{
+	font-weight: 100;
+	font-size: 2rem;
+}
+}
